@@ -154,6 +154,13 @@ print(analysis['health_score'])  # e.g., 85
 ## Configuration
 
 - **Gemini Model**: Defaults to `gemini-2.5-flash` (fast and cost-effective). Change in the notebook if needed.
-- **Output Directory**: Results saved to `/content/portfolio_demo/` (customizable).
-- **Error Handling**: The notebook includes try-except blocks for API failures and data issues.
+  
+
+
+## Other Models
+
+Similar portfolio analysis functionality has been implemented using other AI models:
+
+- `GPT-3.5-turbo`: OpenAI's efficient language model implementation available in the gpt.ipynb notebook.
+- `Claude-3-haiku-20240307`: Anthropic's Claude 3 Haiku model implementation available in the claude.ipynb notebook.
 
